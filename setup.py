@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='django-cidr-allowed-hosts',
-    version='1.0.2',
+    version='1.0.3',
     description='Django middleware to allow access from specific CIDR ranges',
     long_description=open('README.rst').read(),
     url='https://github.com/wozniakpl/django-cidr-allowed-hosts.git',
