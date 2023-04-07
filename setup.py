@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='django-cidr-allowed-hosts',
-    version='1.0.1',
+    version='1.0.2',
     description='Django middleware to allow access from specific CIDR ranges',
     long_description=open('README.rst').read(),
     url='https://github.com/wozniakpl/django-cidr-allowed-hosts.git',
@@ -18,7 +18,7 @@ setup(
         "Framework :: Django :: 3.2",
         "Framework :: Django :: 4.0",
         "Intended Audience :: Developers",
-        "License :: OSI Approved :: The Unlicense (Unlicense)",
+        "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
         "Natural Language :: English",
         "Programming Language :: Python",
